@@ -15,4 +15,4 @@ with open('model2.pkl','rb')as file:
 
 res=model.predict([[f1,f2,f3]])
 
-
+st.write(res[0])
